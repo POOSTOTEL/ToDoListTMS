@@ -35,4 +35,24 @@ public class ConsoleInfoPrinter {
         System.out.println("Enter date and time and press enter.");
         System.out.println("(Input format \"yyyy-MM-dd HH:mm\")");
     }
+    public static void printEditOptions () {
+        System.out.println("What do you want to edit?");
+        System.out.println("1) Task name;");
+        System.out.println("2) Task description.");
+    }
+    public static void printRequestForInputReplaceableData() {
+        System.out.println("Enter the task number and replacement text:");
+    }
+    public static void printRequestForInputSearchPhrase() {
+        System.out.println("Enter the task number:");
+    }
+    public static void printRequestForInputDate() {
+        System.out.println("Enter the task number:");
+    }
+    public static void printRequestForInputStatus() {
+        System.out.println("Enter the task number:");
+    }
+    public static void printRequestForInputNumber() {
+        System.out.println("Enter the task number:");
+    }
 }
